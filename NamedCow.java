@@ -1,19 +1,14 @@
-
-class NamedCow extends Cow {     
-     private String myType; 
-     private String myName;    
-     private String mySound; 
-     public NamedCow(String type, String name, String sound)     
+class NamedCow extends Cow {      
+     private String myName;     
+     public NamedCow(String type, String sound, String name)     
      {         
-         myType = type;
-         myName = name;         
-         mySound = sound;     
+         myName = name;            
      }     
-     public NamedCow()     {         
+     /*public NamedCow()     {         
          myType = "unknown";         
          mySound = "unknown";     
-     }      
-     public String getSound(){return mySound;}  
+     } */     
+     //public String getSound(){return mySound;}  
      public String getName(){return myName;}
-     public String getType(){return myType;} 
+     //public String getType(){return myType;} 
 }
